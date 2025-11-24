@@ -1,3 +1,4 @@
+0. ask any genAI if you have any problem
 1. install python3: https://www.python.org/downloads/
 2. open powershell or cmd, run `pip install PyQt6`
 3. run `python kt.py`. Or double click the kt.py

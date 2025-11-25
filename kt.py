@@ -265,7 +265,7 @@ class MainUI(QMainWindow):
         self.compute_thread = ComputeThread(blocks,self.result_grid)
         self.compute_thread.finished_signal.connect(self.on_compute_finished)
         self.compute_thread.start()
-        print("Started computation...\n")
+        print("Started computation...")
 
     def on_compute_finished(self,count_grid,total_placements):
         if total_placements==0:
@@ -307,3 +307,4 @@ if __name__=="__main__":
     ui = MainUI()
     ui.show()
     sys.exit(app.exec())
+

@@ -223,7 +223,7 @@ class ComputeThread(QThread):
 class MainUI(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Tetris Probability UI")
+        self.setWindowTitle("KT Probability")
 
         main_widget = QWidget()
         layout = QHBoxLayout(main_widget)
@@ -307,4 +307,5 @@ if __name__=="__main__":
     ui = MainUI()
     ui.show()
     sys.exit(app.exec())
+
 

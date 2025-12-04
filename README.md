@@ -1,5 +1,8 @@
-<details> 
-  <summary>kt.py</summary> .................. 
+`python timer.py 19:00`
+
+`python event_timer.py`
+
+kt.py <details> <summary> ... </summary> 
 When you hold down the grid, you can peek through the gap to see if there’s treasure. If you keep pressing and slide to the side, it won’t be a real click.
 0. ask any genAI if you have any problem
 1. install python3: https://www.python.org/downloads/

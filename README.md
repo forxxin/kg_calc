@@ -2,7 +2,7 @@
 `python timer.py 19:00`
 
 event alarm:
-`python event_timer.py`
+`python event_timer.py` (didn't test)
 
 
 <details> <summary> kt.py </summary> 

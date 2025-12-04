@@ -1,7 +1,7 @@
 19min timer:
 `python timer.py 19:00`
 
-event timer:
+event alarm:
 `python event_timer.py`
 
 

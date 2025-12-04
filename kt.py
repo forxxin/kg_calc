@@ -300,12 +300,27 @@ class MainUI(QMainWindow):
         self.btn_compute.setEnabled(True)
         print("Reset All\n")
 
+def evil_spirits(base):
+    M='M'
+    print(f'wave1 {base}{M}; ')
+    for wave in range(2,21):
+        power=base*wave
+        if wave in [7,14,17]:
+            name='elite'
+            k=5
+        elif wave in [10,20]:
+            name='boss'
+            k=10
+        else:
+            name='wave'
+            k=1
+        if k>1 or wave==19:
+            print(f'{name}{wave} {base}*{wave}*{k}={base*wave*k}{M}; ')
 
 # ------------------- Run -------------------
 if __name__=="__main__":
+    evil_spirits(base=57/3)
     app = QApplication(sys.argv)
     ui = MainUI()
     ui.show()
     sys.exit(app.exec())
-
-

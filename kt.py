@@ -319,8 +319,9 @@ def evil_spirits(base):
 
 # ------------------- Run -------------------
 if __name__=="__main__":
-    evil_spirits(base=57/3)
-    app = QApplication(sys.argv)
-    ui = MainUI()
-    ui.show()
-    sys.exit(app.exec())
+    evil_spirits(base=57/3) # stage_power/stage_level 
+    # app = QApplication(sys.argv)
+    # ui = MainUI()
+    # ui.show()
+    # sys.exit(app.exec())
+
